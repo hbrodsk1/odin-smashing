@@ -5,6 +5,7 @@
 body {
 	margin: 0;
 	border: 0;
+	font-family: sans-serif;
 }
 
 .nav {
@@ -81,7 +82,15 @@ body {
 	height: 83px;
 	width: 90%;
 	top: 60px;
-	background-color: #191919;
+	background-color: white;
+}
+
+.title p {
+	position: relative;
+	float: left;
+	top: -627px;
+	font-family: 'Bungee Inline', cursive;
+	font-weight: 700;
 }
 
 .author {
@@ -108,7 +117,17 @@ body {
 	height: 254px;
 	width: 90%;
 	top: 160px;
-	background-color: #4c4c4c;
+	background-color: white;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+}
+
+.first-p p {
+	float: left;
+	width: 100%;
+	position: relative;
+	top: -330px;
+	font-weight: 700;
 }
 
 .img {
@@ -126,7 +145,17 @@ body {
 	height: 254px;
 	width: 90%;
 	top: 220px;
-	background-color: #4c4c4c;
+	background-color: white;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+.second-p p {
+	float: left;
+	width: 100%;
+	position: relative;
+	top: -18px;
+	font-family: 'Raleway', sans-serif;
 }
 
 .button {
